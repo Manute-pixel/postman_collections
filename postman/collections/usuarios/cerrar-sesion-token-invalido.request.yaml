@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:3000/usuarios/logout
+method: POST
+auth:
+  type: bearer
+  credentials:
+    token: dsfgdsg
+order: 8318

@@ -1,0 +1,20 @@
+$kind: http-request
+name: registrarse
+url: http://localhost:3000/usuarios/registro
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Raul\",\r
+
+    \  \"apellido\": \"Gonzalez\",\r
+
+    \  \"email\": \"Raul@gmail.com\",\r
+
+    \  \"password\": \"passs1234\",\r
+
+    \  \"rol_usuario\": \"artesano\"\r
+
+    }"
+order: 1000

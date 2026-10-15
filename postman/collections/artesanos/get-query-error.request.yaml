@@ -1,0 +1,7 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/artesanos?pagina=da
+method: GET
+queryParams:
+  pagina: da
+order: 117074975076502

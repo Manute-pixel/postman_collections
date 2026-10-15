@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:3000/usuarios/me
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0dmm}}"
+examples: .resources/mi-perfil-token-invalido.resources/examples
+order: 7000

@@ -1,0 +1,7 @@
+$kind: http-request
+name: mi-perfil
+url: http://localhost:3000/usuarios/me
+method: GET
+auth:
+  type: bearer
+order: 6000

@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/artesanos/-2
+method: DELETE
+order: 3995787083605529

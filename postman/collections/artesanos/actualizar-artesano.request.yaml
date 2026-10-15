@@ -1,0 +1,27 @@
+$kind: http-request
+url: http://localhost:3000/artesanos/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Juan Jose\",\r
+
+    \  \"apellido\": \"Pérez Gómez\",\r
+
+    \  \"dni\": \"35123456\",\r
+
+    \  \"email\": \"juan.perez@example.com\",\r
+
+    \  \"fechaNac\": \"2000-05-15\",\r
+
+    \  \"telefono\": \"3834123456\",\r
+
+    \  \"rubroId\": 1,\r
+
+    \  \"localidadId\": 1,\r
+
+    \  \"provinciaId\": 1\r
+
+    }"
+order: 3329641180175286

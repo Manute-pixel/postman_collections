@@ -1,0 +1,21 @@
+$kind: http-request
+name: ya-existe-email-error
+url: http://localhost:3000/usuarios/registro
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Jose\",\r
+
+    \  \"apellido\": \"Gomez\",\r
+
+    \  \"email\": \"jose.gomez@gmail.com\",\r
+
+    \  \"password\": \"pass1234\",\r
+
+    \  \"rol_usuario\": \"artesano\"\r
+
+    }"
+examples: .resources/ya-existe-email-error-1.resources/examples
+order: 2000

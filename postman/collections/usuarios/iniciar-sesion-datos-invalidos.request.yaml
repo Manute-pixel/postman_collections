@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3000/usuarios/login
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"jose.gomezgmail.com\",\r
+
+    \  \"password\": \"pass1234\"\r
+
+    }"
+examples: .resources/iniciar-sesion-datos-invalidos.resources/examples
+order: 5000

@@ -1,0 +1,27 @@
+$kind: http-request
+name: http://localhost:3000/artesanos
+description: ""
+url: http://localhost:3000/artesanos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombre\": \"nahuel\",\r
+
+    \    \"apellido\": \"Olmos\",\r
+
+    \    \"dni\": \"34567865\",\r
+
+    \    \"fechaNac\": \"1998-09-13 00:00:00-03:00\",\r
+
+    \    \"rubro\" : \"Textil\",\r
+
+    \    \"localidad\": \"Banda Varela\",\r
+
+    \    \"provincia\":  \"Catamarca\",\r
+
+    \    \"email\": \"nahuel123@gmail.com\"\r
+
+    }"
+order: 1790811550535

@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/artesanos
+method: GET
+order: 1792098037670

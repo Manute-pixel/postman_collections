@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:3000/artesanos
+description: ""
+url: http://localhost:3000/artesanos
+method: GET
+order: 1790811328235

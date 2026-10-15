@@ -1,0 +1,14 @@
+$kind: http-request
+name: iniciar-sesion
+url: http://localhost:3000/usuarios/login
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"jose.gomez@gmail.com\",\r
+
+    \  \"password\": \"pass1234\"\r
+
+    }"
+order: 4000
